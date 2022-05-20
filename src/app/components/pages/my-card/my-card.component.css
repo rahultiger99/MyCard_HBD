@@ -40,7 +40,7 @@
   visibility:hidden;
 }
 .birthdayCard:hover .cardFront {
-  background: url('/assets/Ankie.jpg');
+  background: #c770d5 url('/assets/Ankie.jpg');
   background-repeat: no-repeat;
   background-size: 250px 350px;
 }
