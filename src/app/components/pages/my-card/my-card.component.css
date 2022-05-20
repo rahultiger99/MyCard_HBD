@@ -3,12 +3,12 @@
   to {background-position:-10000px 5000px;}
 }
 .stars {
-  background:#000 url('./assets/stars.png') repeat top center;
+  background:#000 url('/assets/stars.png') repeat top center;
   z-index:3;
   height:150vh;
 }
 .twinkling{
-  background:transparent url('./assets/twinkling.png') repeat top center;
+  background:transparent url('/assets/twinkling.png') repeat top center;
   z-index:2;
   height:150vh;
   animation:move-twink-back 200s linear infinite;
@@ -40,7 +40,7 @@
   visibility:hidden;
 }
 .birthdayCard:hover .cardFront {
-  background: url('./assets/Ankie.jpg');
+  background: url('/assets/Ankie.jpg');
   background-repeat: no-repeat;
   background-size: 250px 350px;
 }
