@@ -2,20 +2,17 @@
   from {background-position:0 0;}
   to {background-position:-10000px 5000px;}
 }
-
 .stars {
   background:#000 url('/assets/stars.png') repeat top center;
   z-index:3;
   height:150vh;
 }
-
 .twinkling{
   background:transparent url('/assets/twinkling.png') repeat top center;
   z-index:2;
   height:150vh;
   animation:move-twink-back 200s linear infinite;
 }
-
 .container {
   display: flex;
   align-items: center;
@@ -23,7 +20,6 @@
   height:150vh;
   z-index: 1;
 }
-
 .birthdayCard {
   position: relative;
   width: 250px;
@@ -33,26 +29,21 @@
   transform: perspective(2500px);
   transition: 1s;
 }
-
 .birthdayCard:hover {
   transform: perspective(2500px) rotate(5deg);
   box-shadow: inset 100px 20px 100px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,0.5);
 }
-
 .birthdayCard:hover .cardFront {
   transform: rotateY(-160deg);
 }
-
 .birthdayCard:hover .happy {
   visibility:hidden;
 }
-
 .birthdayCard:hover .cardFront {
   background: url('/assets/Ankie.jpg');
   background-repeat: no-repeat;
   background-size: 250px 350px;
 }
-
 .cardFront {
   position: relative;
   background-color: #c770d5;
@@ -63,7 +54,6 @@
   box-shadow: inset 100px 20px 100px rgba(0,0,0,.2), 30px 0 50px rgba(0,0,0,0.4);
   transition: .6s;
 }
-
 .happy{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -71,42 +61,35 @@
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   transition: 0.1s;
 }
-
 .balloons{
   position: absolute;
 }
-
 .balloonOne, .balloonTwo, .balloonThree, .balloonFour{
   position: absolute;
   width: 85px;
   height: 95px;
   border-radius: 50%;
 }
-
 .balloonOne{
   background-color: rgba(17, 178, 65, 0.7);
   left:-10px;
   top:50px;
 }
-
 .balloonTwo{
   background-color: rgba(243, 112, 6, 0.7);
   left:50px;
   top:20px;
 }
-
 .balloonThree{
   background-color: rgb(17, 138, 178, 0.7);
   left:110px;
   top:50px;
 }
-
 .balloonFour{
   background-color: rgba(194, 19, 80, 0.7);
   left:170px;
   top:20px;
 }
-
 .balloonOne::before, .balloonTwo::before, .balloonThree::before, .balloonFour::before{
   content: "";
   position:absolute;
@@ -116,7 +99,6 @@
   top: 95px;
   left: 44px;
 }
-
 .balloonOne::after, .balloonTwo::after, .balloonThree::after, .balloonFour::after{
   content: "";
   position:absolute;
@@ -125,23 +107,18 @@
   top: 95px;
   left: 37px;
 }
-
 .balloonOne::after{
   border-bottom: 10px solid rgba(17, 178, 65, 0.7);
 }
-
 .balloonTwo::after{
   border-bottom: 10px solid rgba(243, 112, 6, 0.7);
 }
-
 .balloonThree::after{
   border-bottom: 10px solid rgb(17, 138, 178, 0.7);
 }
-
 .balloonFour::after{
   border-bottom: 10px solid rgba(194, 19, 80, 0.7);
 }
-
 .cardInside{
   position: absolute;
   background-color: #c770d5;
@@ -152,21 +129,18 @@
   box-shadow: inset 100px 20px 100px rgba(0,0,0,0.2);
   z-index: -1;
 }
-
 p{
   font-family: 'Brush Script MT', cursive;
   font-size: medium;
   margin: 40px;
   color: #333;
 }
-
 .name{
   position: absolute;
   left: 150px;
   top: 250px;
   color: #333;
 }
-
 .back{
   font-family: sans-serif;
   color: #333;
